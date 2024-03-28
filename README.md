@@ -12,7 +12,8 @@ In the realm of artificial intelligence, the adaptation of Large Language Model 
 </p>
 
 ## Usage
-pip install -r requirments
+**pip install -r requirments.txt**
+
 To evaluate the performance of agents under each domain, run the Integrate.py under each directory.
 
 **An text example of the agent ansewring an open-ended query**
