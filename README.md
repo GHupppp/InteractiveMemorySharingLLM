@@ -10,3 +10,9 @@ In the realm of artificial intelligence, the adaptation of Large Language Model 
 <p align="center">
   <img src="Images/Demo.png" alt="The framework of Memory Sharing" width="100%" />
 </p>
+
+**An text example of the agent ansewring an open-ended query**
+<p align="center">
+  <img src="Images/Example" alt="The framework of Memory Sharing" width="100%" />
+</p>
+
