@@ -1,4 +1,4 @@
-# Memory Sharing for Large Language Model based Agents
+## Memory Sharing for Large Language Model based Agents
 
 <p align="center">
   <img src="Images/MS_framework.png" alt="The framework of Memory Sharing" width="100%" />
