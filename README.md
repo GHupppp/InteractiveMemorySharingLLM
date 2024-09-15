@@ -8,7 +8,7 @@ The adaptation of Large Language Models (LLMs) to execute tasks via natural lang
 
 **An illustration of how the agent cooperate with the MS.**
 <p align="center">
-  <img src="Images/NewPip.png" alt="The framework of Memory Sharing" width="100%" />
+  <img src="Images/NewMS.png" alt="The framework of Memory Sharing" width="100%" />
 </p>
 
 ## Usage
