@@ -1,10 +1,10 @@
-## Memory Sharing for Large Language Model based Agents
+## Interactive Memory Sharing for Large Language Models
 
 <p align="center">
   <img src="Images/MS_framework.png" alt="The framework of Memory Sharing" width="100%" />
 </p>
 
-In the realm of artificial intelligence, the adaptation of Large Language Model (LLM)-based agents to execute tasks via natural language prompts represents a significant advancement, notably eliminating the need for explicit retraining or fine tuning for fixed-answer tasks such as common sense questions and yes/no queries. However, the application of In-context Learning to open-ended challenges, like poetry creation, reveals substantial limitations due to the comprehensiveness of provided examples and agent’s ability to understand the content expressed in the problem, leading to outputs that often diverge significantly from expected results. Addressing this gap, our study introduces the Memory-Sharing (MS) mechanism for LLM multi-agents, which utilizes a real-time memory storage and retrieval system to enhance the In-context Learning process. Each "memory" within this system captures both the posed query and the corresponding real-time response from an LLM-based agent, aggregating these memories from a broad spectrum of similar agents to enrich the memory pool shared by all agents. This framework not only aids agents in identifying the most relevant examples for specific tasks but also evaluates the potential utility of these memories for future applications by other agents. Empirical validation across three distinct domains involving specialized functions of agents demonstrates that the MS framework significantly improve the agent's performance regrading the open-ended questions. Furthermore, we also discuss what type of memory pool and what retrieval strategy in MS can better help agents, offering a future develop direction of MS. 
+The adaptation of Large Language Models (LLMs) to execute tasks via natural language prompts represents a significant advancement, notably eliminating the need for explicit retraining or fine tuning, but are constrained by the comprehensiveness and diversity of the provided examples, leading to outputs that often diverge significantly from expected results, especially when it comes to the open-ended questions. Although Retrieval-Augmented Generation (RAG) can effectively address this problem, its implementation may be hindered by the scarcity of suitable external databases or the insufficiency and obsolescence of examples in existing databases. This work aims to address the problem of external datasets shortage and obsolescent for databases. We proposed a novel Interactive Memory Sharing framework, which integrates the real-time memory filter, storage and retrieval to enhance the In-Context Learning process. This framework allows for the sharing of memories among LLMs, whereby the interactions and shared memories between LLMs effectively enhance the diversity of the memories. The collective self-enhancement through interactive learning among LLMs facilitates the evolution from individual intelligence to collective intelligence. Besides, the dynamically growing memory pool is utilized not only to improve the quality of responses but also to train and enhance the retriever in real-time. Extensive experiments on three distinct domains demonstrate that the INMS framework significantly improves the agents' performance in addressing open-ended questions.
 
 **An illustration of how the agent cooperate with the MS.**
 <p align="center">
@@ -16,7 +16,7 @@ In the realm of artificial intelligence, the adaptation of Large Language Model 
 
 To evaluate the performance of agents under each domain, run the Integrate.py under each directory.
 
-**An text example of the agent answering an open-ended query**
+**An text example of LLM answer an open-ended query**
 <p align="center">
   <img src="Images/Example.png" alt="The framework of Memory Sharing" width="100%" />
 </p>
