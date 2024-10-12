@@ -4,7 +4,7 @@ from collections import defaultdict
 from openai import OpenAI
 import json
 import Retrival_model
-import torch
+import torch #
 
 if torch.cuda.is_available():
     device = torch.device("cuda")
